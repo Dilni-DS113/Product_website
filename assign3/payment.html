@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8" />
+  <meta name="description" content="Assigment 2: Payment page for creating web applications" />
+  <meta name="keywords" content="HTML5, tags,Assigment " />
+  <meta name="author" content="Dilni"  />
+  <script src = "part2.js"></script>
+<title> Payment </title>
+
+</head>
+
+<body>
+
+<link href= "CSS/Style.css" rel="stylesheet"/>
+
+<h1> Tickets for screening movies </h1> 
+<hr/>
+
+<nav>
+<a href= "index.html"> Home</a>
+<a href= "product.html"> Tickets</a>
+<a href= "enquire.html"> Product enquiry page</a>
+<a href= "about.html"> About my Assignment</a>
+<a href= "enhancements.html"> Enhancements that were made</a>
+</nav> 
+
+
+<fieldset>
+<legend>Check out infromation</legend>
+<form  method = "post" action = "fix_order.php"                         >
+
+<p><label >Select Credit card type </label></p> 
+<select name="Credit" id="credit">
+<option value= "Visa" >Visa</option> 
+<option value= "Mastercard" >Mastercard</option>
+<option value= "American Express" >American Express</option>
+<option value="Select Type of Ticket" selected = "Selected" >Select Type of Ticket</option>
+</select>
+
+<p> <label> Name on Credit card: 
+<input type ="text" name ="Name on Credit card"  maxlength ="16"
+size = "16" 
+pattern = "^[1-10]+"
+required="required"/>
+</label> </p>
+
+<p> <label> Credit card expiry date:  
+<input type ="text" name ="Credit card expiry date"  maxlength ="4"
+size = "5" 
+pattern = "^[1-10]+"
+required="required"/>
+</label> </p>
+
+<p> <label> Credit card verivication number:  
+<input type ="text" name ="Credit card verivication number"  maxlength ="3"
+size = "4" 
+pattern = "^[1-10]+"
+required="required"/>
+</label> </p>
+
+</fieldset>
+</form>
+
+<br/>
+
+<fieldset>
+<legend> Total price </legend>
+
+<p>Ticket price Total </p>
+<form  method= "post" action= https://mercury.swin.edu.au/it000000/formtest.php.>
+<input type="submit" value="Complete check out"/>
+</form>
+
+</fieldset>
