@@ -1,0 +1,168 @@
+/* 
+Filename: [style.css]
+author: [Dilni]
+created: [27/03/2021]
+last modidied:[27/03/2021]
+description: [html files it refers to (if known)]
+*/
+
+h1{font-family: verdana;
+color:white;
+text-align: center}
+body { background-color: pink}
+h2{font-family: verdana
+;color: white;
+}
+h3{font-family: verdana
+;color: white;
+}
+p{ font-family: verdana;
+   color: white}
+
+figure{font-family: verdana
+;color: white}
+
+img.intro1{display: block;
+margin-left: auto;
+margin-right: auto}
+
+img.intro2{display: block;
+margin-left: auto;
+margin-right: auto}
+
+img.big{display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+h2.social{text-align: center}
+table,th,td{border:2px solid white}
+h2.social{text-align:center}
+ul{font-family: verdana;
+color: white}
+
+ol{font-family: verdana;
+color: white}
+
+dl{font-family: verdana;
+color: white}
+
+legend{font-family: verdana;
+color: white}
+
+label{font-family: verdana;
+color: white}
+
+caption{font-family: verdana;
+color: white}
+th{font-family: verdana;
+color: white}
+tr{font-family: verdana;
+color: white}
+
+nav {
+	font-family: verdana;
+  list-style-type: none;
+  margin: 2px;
+  padding: 2px;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+
+
+nav{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav{position: sticky;
+top:0;
+width:100%}
+
+nav a:hover{background-color:purple}
+
+figcaption{
+box-sizing: border-box}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 250px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+margin-left: auto;
+margin-right: auto}
+
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 1200px; 
+}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height:1300px; 
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+* {
+box-sizing: border-box}
+
+.column10 {
+  float: left;
+  width: 10%;
+  padding: 1px;
+  height: 250px; 
+}
+
+
+
+.row10:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8" />
+  <meta name="description" content="Assigment 1: Product enquiry page for creating web applications" />
+  <meta name="keywords" content="HTML5, tags,Assigment " />
+  <meta name="author" content="Dilni"  />
+<title> Product enquiry page </title>
+
+</head>
+
+<body>
+
+<link href= "CSS/Style.css" rel="stylesheet"/>
+
+<form method= "post" action= "https://mercury.swin.edu.au/it000000/formtest.php" > 
+<h1> Ticket Enquire</h1>
+
+<hr/>
+
+<nav>
+<a href= "index.html"> Home</a>
+<a href= "product.html"> Tickets</a>
+<a href= "enquire.html"> Product enquiry page</a>
+<a href= "about.html"> About my Assingment</a>
+<a href= "enhancements.html"> Enhancements that were made</a>
+</nav>
+ 
+<p>
+<fieldset>
+<legend> Enter Personal details </legend>
+
+<p> <label> First name:
+<input type ="text" name ="First name" maxlength ="25"
+size = "27" 
+pattern = "^[a-zA-Z]+"
+required="required"/>
+</label> </p>
+
+<p> <label> Last name:
+<input type = "Text" name = "name"  maxlength = "25"
+size = "27" 
+pattern = "^[a-zA-Z]+"
+required="required"/>
+</label> </p>
+
+
+</fieldset>
+
+
+<p>
+<fieldset>
+<legend> Address </legend>
+<p>
+<label> Street address: 
+<input type ="text" name ="Street address"  maxlength ="40"
+size = "44" 
+pattern = "^[a-zA-Z]+"
+required="required"/>
+</label> </p>
+
+<label> Suburb/town: 
+<input type ="text" name ="Street address"  maxlength ="20"
+size = "23" 
+pattern = "^[a-zA-Z]+"
+required="required"/>
+</label> </p>
+
+<p><label for="States">Select State</label></p> 
+<select name="States" id="States">
+<option value= "VIC" Selected="Selected">VIC</option>
+<option value= "NSW" Selected="Selected">NSW</option>
+<option value= "QLD" Selected="Selected">QLD</option>
+<option value= "NT" Selected="selected">NT</option> 
+<option value= "WA" selected = "Selected">WA</option>
+<option value= "SA" selected = "Selected">SA</option> 
+<option value= "TAS" selected = "selected">TAS</option>
+<option value= "ACT" selected = "selected">ACT</option>
+<option value="" disabled Selected>Select Type of Ticket</option>
+</select>
+
+<p><label> Post code :</label>
+<input type ="text" name ="Post code" id ="Post code" maxlength ="4"
+size = "6" 
+pattern = "^[1-10]+"
+required="required"/>
+</label> </p>
+
+
+</fieldset>
+</p>
+
+<p>
+<fieldset>
+<legend> Contact details </legend>
+
+<p>
+<label for="Email">Email</label>
+<input type="radio" id="" name="Contact details" value="Email"/>
+
+
+<label for="Post">Post</label>
+<input type="radio" id="" name="Contact details" value="Post"/>
+
+<label for="phone">phone</label>
+<input type="radio" id="" name="Contact details" value="Email"/>
+</p>
+
+<p><label>Enter email adress
+<input type = "email" name = "contactemail"
+placeholder = "emai23231@email.com"
+required = "required" />
+</label></p>
+
+<p><label>Phone number
+<input type= "tel" name= "phone"
+placeholder= "(##) ####-####"
+pattern = "\{\d{2}\}  +\d{4}-\d{4}" />
+</label></p>
+
+</fieldset>
+</p>
+
+<p>
+<fieldset>
+<legend> Enquire about </legend>
+<p>
+<p>Which Movie Ticket is the enquire about  </p>
+<label><input type= "checkbox" name= "things[]"
+value="How to train your dragon" />
+How to train your dragon | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Moon light" />
+Moon Light | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Baby Driver" />
+Baby Driver | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Joker" />
+Joker | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Black Panther" />
+Black Panther | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Black Swan" />
+Black Swan | </label> 
+</p>
+
+<p> Problem</p>
+<label><input type= "checkbox" name= "things[]"
+value="Refund" />
+Refund | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Unable to download ticket" />
+Unable to download ticket | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Cancerllation" />
+Cancerllation | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="payment error" />
+payment error | </label> 
+</p>
+
+<p><label>Specify and elaborate on issue enquiry<br />
+<textarea name = "Specify enquiry"
+rows = "5" cols = "25"> 
+Enter problem here.
+</textarea>
+</label></p>
+</fieldset>
+</p>
+
+<p>
+<input type = "submit" value = "submit enquire" />
+<input type = "reset" value = "Reset information" />
+</p>
+</form>
+</body>
+<hr />
+
+<footer> 
+&copy copyright 
+<div class="row10">
+
+	<div class="column10">
+		<p>Instagram </p>
+		<img src= "Insta.png" alt= "Social media instagram"  />
+	</div>
+
+	<div class= "column10" >
+		<p> Twitter</p>
+		<p><img src= "twitter.jpg" alt= "social media twitter" ]/></p> 
+	</div>
+	</div>
+</footer>
