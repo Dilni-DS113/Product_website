@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8" />
+  <meta name="description" content="Assigment 2: Product enquiry page for creating web applications" />
+  <meta name="keywords" content="HTML5, tags,Assigment " />
+  <meta name="author" content="Dilni"  />
+  <script src = "part2.js"></script>
+<title> Product enquiry page </title>
+
+</head>
+
+<body>
+
+<link href= "CSS/Style.css" rel="stylesheet"/>
+
+<form method= "post" action= payment.html > 
+<h1> Ticket Enquire</h1>
+
+<hr/>
+
+<nav>
+<a href= "index.html"> Home</a>
+<a href= "product.html"> Tickets</a>
+<a href= "enquire.html"> Product enquiry page</a>
+<a href= "about.html"> About my Assingment</a>
+<a href= "enhancements.html"> Enhancements that were made</a>
+</nav>
+ 
+
+<fieldset>
+<legend> Enter Personal details </legend>
+
+<p> <label> First name:
+<input type ="text" name ="First name" id="firstname" maxlength ="25"
+size = "27" 
+required="required"/>
+</label> </p>
+
+<p> <label> Last name:
+<input type = "Text" name = "Last name" id= "lastname" maxlength = "25"
+size = "27" 
+required="required"/>
+</label> </p>
+
+
+</fieldset>
+
+
+
+<fieldset>
+<legend> Address </legend>
+<p>
+<label> Street address:</label> 
+<input type ="text" id ="Streetaddress"  maxlength ="40"
+size = "44" 
+
+required="required"/>
+</p>
+
+<p> <label> Suburb/town: 
+<input type ="text" id ="town"  maxlength ="20"
+size = "23" 
+required="required"/>
+</label> </p>
+
+<p><label for="States">Select State</label></p> 
+<select name="States" id="States">
+<option value= "VIC" >VIC</option>
+<option value= "NSW" >NSW</option>
+<option value= "QLD" >QLD</option>
+<option value= "NT" >NT</option> 
+<option value= "WA" >WA</option>
+<option value= "SA" >SA</option> 
+<option value= "TAS" >TAS</option>
+<option value= "ACT" >ACT</option>
+<option value="Select Type of Ticket" selected = "Selected" >Select Type of Ticket</option>
+</select>
+
+<p><label> Post code :</label>
+<input type ="text" name ="Post code" id = "code" maxlength ="4"
+size = "6" 
+required="required"/>
+ </p>
+
+
+</fieldset>
+
+<fieldset>
+<legend> Contact details </legend>
+
+<p>
+<label> Email</label>
+<input type="radio" id = "Email"  name="Contact details" />
+
+
+<label >Post</label>
+<input type="radio" id = "post" name="Contact details" />
+
+<label >phone</label>
+<input type="radio" id = "phone" name="Contact details" />
+</p>
+
+<p><label>Enter email adress
+<input type = "email" id = "contactemail"
+placeholder = "emai23231@email.com"
+required = "required" />
+</label></p>
+
+<p><label>Phone number
+<input type= "tel" id= "number"
+placeholder= "(##) ####-####"
+/>
+</label></p>
+
+</fieldset>
+
+<fieldset>
+<legend>Collect Tickets:</legend>
+
+
+ <p><label>Session Date</label><br /> </p>
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" id="Tickets">
+<option value= "Single" >Single = $5</option>
+<option value= "Double" >Double = $10</option>
+<option value= "Triple" >Triple = $30</option>
+<option value= "Family" >Family: More than 3 members = $20</option> 
+<option value="Select Type of Ticket" Selected = "Selected">Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label><p>
+<br />
+<label><input type= "checkbox" id = "b1" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" id = "b2" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" id = "b3" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" id = "b4" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" id = "b5" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+
+
+<p><label>Purchasing movie Ticket</label></p>
+
+<label><input type= "checkbox" id = "movie1" name= "things[]"
+value="How to train your dragon" />
+How to train your dragon | </label> 
+
+<label><input type= "checkbox" id = "movie2" name= "things[]"
+value="Moon light" />
+Moon Light | </label> 
+
+<label><input type= "checkbox" id = "movie3" name= "things[]"
+value="Baby Driver" />
+Baby Driver | </label> 
+
+<label><input type= "checkbox" id = "movie4" name= "things[]"
+value="Joker" />
+Joker | </label> 
+
+<label><input type= "checkbox" id = "movie5" name= "things[]"
+value="Black Panther" />
+Black Panther | </label> 
+
+<label><input type= "checkbox" id = "movie6" name= "things[]"
+value="Black Swan" />
+Black Swan | </label> 
+
+
+</fieldset>
+
+
+
+
+
+<fieldset>
+<legend> Enquire about </legend>
+<p>Which Movie Ticket is the enquire about  </p>
+<label><input type= "checkbox" id = "movie1a" name= "things[]"
+value="How to train your dragon" />
+How to train your dragon | </label> 
+
+<label><input type= "checkbox" id = "movie2a" name= "things[]"
+value="Moon light" />
+Moon Light | </label> 
+
+<label><input type= "checkbox" id = "movie3a" name= "things[]"
+value="Baby Driver" />
+Baby Driver | </label> 
+
+<label><input type= "checkbox" id = "movie4a" name= "things[]"
+value="Joker" />
+Joker | </label> 
+
+<label><input type= "checkbox" id = "movie5a" name= "things[]"
+value="Black Panther" />
+Black Panther | </label> 
+
+<label><input type= "checkbox" id = "movie6a" name= "things[]"
+value="Black Swan" />
+Black Swan | </label> 
+
+<label><input type= "checkbox" id = "movie7a" name= "things[]"
+value = "No Movie to enquire" />
+No Movie to enquire | </label>
+
+
+
+
+<p> Problem</p>
+<label><input type= "checkbox" id= "p1" name= "things[]"
+value="Refund" />
+Refund | </label> 
+
+<label><input type= "checkbox" id= "p2" name= "things[]"
+value="Unable to download ticket" />
+Unable to download ticket | </label> 
+
+<label><input type= "checkbox" id= "p3" name= "things[]"
+value="Cancerllation" />
+Cancerllation | </label> 
+
+<label><input type= "checkbox" id= "p4" name= "things[]"
+value="payment error" />
+payment error | </label> 
+
+<label> <input type= "checkbox" id= "p5" name= "things[]"
+value="No problems" />
+No problems | </label>
+
+
+
+
+
+
+<p><label>Specify and elaborate on issue enquiry<br />
+<textarea name = "Specify enquiry"
+rows = "5" cols = "25"> 
+Enter problem here.
+</textarea>
+</label></p>
+
+<input  type="submit" value="submit complaint "/>
+
+</fieldset>
+
+
+<p>
+<input  type="submit" value="Purchase Ticket "/>
+<input type = "reset" value = "Reset information" />
+</p>
+</form>
+
+<hr />
+
+<footer> 
+&copy; 
+<div class="row10">
+
+	<div class="column10">
+		<p>Instagram </p>
+		<img src= "Insta.png" alt= "Social media instagram"  />
+	</div>
+
+	<div class= "column10" >
+		<p> Twitter</p>
+		<p><img src= "twitter.jpg" alt= "social media twitter" /></p> 
+	</div>
+	</div>
+	</footer> 
+</body>
+</html>
+
+
+
+

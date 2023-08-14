@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8" />
+  <meta name="description" content="Assigment 1: Product description page for creating web applications" />
+  <meta name="keywords" content="HTML5, tags,Assigment " />
+  <meta name="author" content="Dilni"  />
+<title> Product description page </title>
+
+</head>
+
+<body>
+
+<link href= "CSS/Style.css" rel="stylesheet"/>
+
+<h1> Tickets for screening movies </h1> 
+<hr/>
+
+<nav>
+<a href= "index.html"> Home</a>
+<a href= "product.html"> Tickets</a>
+<a href= "enquire.html"> Product enquiry page</a>
+<a href= "about.html"> About my Assignment</a>
+<a href= "enhancements.html"> Enhancements that were made</a>
+</nav> 
+
+<div class= "row">
+   <div class="column" >
+<h3> What's given at a screening </h3>
+<ul> 
+<li> Free drinks per-person </li> 
+<li> Free movie snacks per-person </li> 
+<li> A blanket </li> 
+<li> A Light </li>
+</ul>
+</div>
+
+
+
+<div class="column" >
+<h3>Drink Menu</h3>
+<dl> 
+<dt> Ice coffee </dt>
+<dd>$5.00</dd>
+<dt>Sprite</dt>
+<dd>$2.00</dd>
+<dt>Coke</dt>
+<dd>$2.00</dd>
+<dt>Fanta </dt>
+<dd>$2.00 </dd>
+</dl>
+</div>
+
+
+<div class="column">
+<h3>Food Menu</h3>
+<dl> 
+<dt> Burgers </dt>
+<dd>$5.00</dd>
+<dt>PopCorn</dt>
+<dd>$3.00</dd>
+<dt>Hot chips </dt>
+<dd>$4.00</dd>
+<dt>Slurpees</dt>
+<dd>$2.00 </dd>
+</dl>
+</div>
+</div>
+
+<hr />
+
+
+<div class= "row2">
+<div class="column2">
+<h3> How to train your dragon </h3> 
+<figure> 
+<img src = "Moive one.jpg" alt= "How to train your dragon" />
+<p><strong>Descriptions:</strong></p>
+<p>Hiccup, a Viking, must kill a dragon to mark his passage into manhood and be initiated into his tribe. However, he ends up doing the exact opposite by befriending a deadly dragon, Night Fury.</p>
+<h3>Collect Tickets:</h3>
+
+
+ <p><label>Session Date</label><br /> </p>
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" id="Tickets">
+<option value= "Single" >Single</option>
+<option value= "Double" >Double</option>
+<option value= "Triple" >Triple</option>
+<option value= "Family" >Family: More than 3 members</option> 
+<option value="Select Type of Ticket" Selected = "Selected">Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label><p>
+<br />
+<label><input type= "checkbox" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+
+
+<p>
+<input type="submit" value="Purchase Ticket "/>
+</p>
+
+</figure>
+</div>
+
+
+
+<div class="column2">
+<h3> Moonlight </h3> 
+<figure> 
+<img src="Moive two.jpg" alt="Moon Light"/>
+<figcaption>
+<p><strong>Descriptions:</strong></p>
+<p>Chiron, a young African-American boy, finds guidance in Juan, a drug dealer, who teaches him to carve his own path. As he grows up in Miami, Juan's advice leaves a lasting impression on him.</p>
+<h3>Collect Tickets:</h3>
+
+
+ <p><label>Session Date </label> </p>
+ <br /> 
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" >
+<option value= "Single" >single</option>
+<option value= "Double">Double</option>
+<option value= "Triple" >Triple</option>
+<option value= "Family" >Family: More than 3 members</option> 
+<option value="Select Type of Ticket" Selected = Selected>Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label></p>
+<br />
+<label><input type= "checkbox" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+
+<p>
+<input type="submit" value="Purchase Ticket "/>
+</p>
+</figcaption>
+</figure>
+</div>
+
+<div class="column2">
+<h3> Baby Driver </h3> 
+<figure> 
+<img src="Moive three.jpg" alt="Baby"/>
+<figcaption>
+<p><strong>Descriptions:</strong></p>
+<p>Doc forces Baby, a former getaway driver, to partake in a heist, threatening to hurt his girlfriend if he refuses. But the plan goes awry when their arms dealers turn out to be undercover officers.</p>
+<h3>Collect Tickets:</h3>
+
+
+ <p><label>Session Date</label></p>
+ <br /> 
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" >
+<option value= "Single" >single</option>
+<option value= "Double" >Double</option>
+<option value= "Triple" >Triple</option>
+<option value= "Family" >Family: More than 3 members</option> 
+<option value="Select Type of Ticket" Selected = Selected>Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label></p>
+<br />
+<label><input type= "checkbox" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+
+<p>
+<input type="submit" value="Purchase Ticket "/>
+</p>
+</figcaption>
+</figure>
+</div>
+</div>
+
+
+
+<div class= "row3">
+<div class="column3">
+<h3> Joker </h3> 
+<figure> 
+<img src="Moive four.jpg" alt="Joker"/>
+<figcaption>
+<p><strong>Descriptions:</strong></p>
+<p>Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. </p>
+<h3>Collect Tickets:</h3>
+
+
+ <p><label>Session Date</label></p>
+ <br /> 
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" >
+<option value= "Single" >single</option>
+<option value= "Double" >Double</option>
+<option value= "Triple" >Triple</option>
+<option value= "Family" >Family: More than 3 members</option> 
+<option value="Select Type of Ticket" Selected= selected>Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label>
+<br />
+<label><input type= "checkbox" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+
+<p>
+<input type="submit" value="Purchase Ticket "/>
+</p>
+</figcaption>
+</figure>
+</div>
+
+ <div class="column3">
+<h3> Black Panther </h3> 
+<figure> 
+<img src="Moive five.jpg" alt="Black Panther"/>
+<figcaption>
+<p><strong>Descriptions:</strong></p>
+<p>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</p>
+<h3>Collect Tickets:</h3>
+
+
+ <p><label>Session Date</label></p>
+ <br /> 
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" >
+<option value= "Single" >single</option>
+<option value= "Double">Double</option>
+<option value= "Triple" >Triple</option>
+<option value= "Family">Family: More than 3 members</option> 
+<option value="Select Type of Ticket" Selected= selected>Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label></p>
+<br />
+<label><input type= "checkbox" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+
+
+<p>
+<input type="submit" value="Purchase Ticket "/>
+</p>
+</figcaption>
+</figure>
+</div>
+
+
+
+<div class="column3">
+<h3> Black Swan </h3> 
+<figure> 
+<img src="Moive six.jpg" alt="Black Swan"/>
+<figcaption>
+<p><strong>Descriptions:</strong></p>
+<p>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</p>
+<h3>Collect Tickets:</h3>
+
+
+ <p><label>Session Date</label></p>
+ <br /> 
+ <input type="date"/>
+ 
+ <p><label for="Tickets">Ticket package</label></p>
+<p> 
+<select name="Tickets" >
+<option value= "Single">single</option>
+<option value= "Double">Double</option>
+<option value= "Triple">Triple</option>
+<option value= "Family">Family: More than 3 members</option> 
+<option value="Select Type of Ticket"  Selected = Selected >Select Type of Ticket</option>
+</select>
+</p>
+
+<p><label>Locations</label></p>
+<br />
+<label><input type= "checkbox" name= "things[]"
+value="Fawkner park" />
+| Fawker park | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Flagstaff Gardens" />
+Flagstaff Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Alexandra Gardens" />
+Alexandra Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Queen Victoria Gardens" />
+Queen Victoria Gardens | </label> 
+
+<label><input type= "checkbox" name= "things[]"
+value="Fitzroy Gardens" />
+Fitzroy Gardens | </label> 
+
+<p>
+<input type="submit" value="Purchase Ticket "/>
+</p>
+</figcaption>
+</figure>
+</div>
+</div>
+
+<h3> Rules to adhere to when entering the park theater </h3>
+<ol>
+<li> Audience members must have Ticket before entering out door cinema
+non ticket holders will be told to leave. </li>
+<li> No illegal paraphernalia. </li> 
+<li> Remember to respect other audience member's personal space. </li>
+<li> Remember to keep noise to a minimum. </li>  
+<li> Alcohol is provided but only one standard drink and no refills avaliable. </li>  
+</ol>
+
+ <table>
+<caption> Viewing Times  </caption>
+<thead> 
+<tr>
+<th>Time</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+</thead>
+
+
+<tbody>
+<tr>
+<td>8:00pm</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>8:30pm</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES </td>
+<td>YES </td>
+<td> YES</td>
+</tr>
+<tr>
+<td>9:00pm</td>
+<td>YES</td>
+<td>NO</td>
+<td>NO</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>10:00pm</td>
+<td>YES</td>
+<td> NO</td>
+<td>NO</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>10:30pm</td>
+<td>YES</td>
+<td>NO</td>
+<td>NO</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>11:00pm</td>
+<td>YES</td>
+<td>NO</td>
+<td>NO</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>11:30pm</td>
+<td>YES</td>
+<td>NO</td>
+<td>NO</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+</table>
+
+<footer> 
+&copy;
+<div class="row10">
+
+	<div class="column10">
+		<p>Instagram </p>
+		<img src= "Insta.png" alt= "Social media instagram"  />
+	</div>
+
+	<div class= "column10" >
+		<p> Twitter</p>
+		<p><img src= "twitter.jpg" alt= "social media twitter" /></p> 
+	</div>
+	</div>
+   </footer>
+</body>
+</html>
+
